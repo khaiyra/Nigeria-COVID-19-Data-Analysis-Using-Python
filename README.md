@@ -18,7 +18,7 @@ STEP 1: Data Collection - Different data is collected from different sources and
 - From NCDC COVID-19 official website, the data is obtained by performing a web extraction/web scrape
 - The Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE) daily data is read in using Pandas from its GitHub repository
 - Nigeria Community Vulnerability Index data, Real Domestic Gross Product Data and State Budget Data is downloded and read in from current working directory
-- Another external data from our world in data [website](https://ourworldindata.org/coronavirus/country/nigeria) for COVID cases in the world is downloaded and read in also. 
+- Another external data from Our world in data [website](https://ourworldindata.org/coronavirus/country/nigeria) for COVID cases in the world is downloaded and read in also. 
 
 STEP 2: View the Data - Basic information about all the data using the head(), shape and info() method were obtained. All data showed no missing value and were in their appropriate datatype except the ncdc scraped data.
 
